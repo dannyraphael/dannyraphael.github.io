@@ -1,0 +1,193 @@
+body {
+  font-family: "Raleway", "Mukta" san-serif;
+  font-size: 16px;
+  color: rgb(45, 45, 45);
+  width: 960px;
+  margin: auto;
+  display: grid;
+  background-image: url("../img/sunset.png");
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+
+footer {
+  color: #fff;
+}
+
+section {
+  background-color: rgba(220, 220, 220, 0.8);
+  margin: 20px;
+  padding: 20px;
+  padding-top: 0;
+}
+
+article {
+  color: #000;
+  display: inline-block;
+  margin: 20px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 80px;
+  margin-bottom: 5px;
+  text-align: left;
+  color: #fff;
+  font-weight: bold;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
+}
+
+h2 {
+  font-size: 100px;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #fff;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-shadow: 2px 2px 30px #000;
+  animation-name: slidein;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes slidein {
+  0% {
+    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0);
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    color: rgb(255, 255, 255);
+  }
+}
+
+h3 {
+  color: #000;
+  font-size: 40px;
+  text-align: center;
+  margin: auto;
+}
+
+h4 {
+  font-size: 25px;
+  color: #000;
+  text-decoration: underline;
+}
+
+nav ul {
+  padding-left: 0;
+  list-style-type: none;
+  padding-bottom: 5px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+nav li {
+  display: inline-block;
+  background-color: rgba(220, 220, 220, 0.8);
+  border: 1px solid #000;
+  padding: 5px;
+  margin-top: 0;
+  margin-left: 15px;
+}
+
+a:link {
+  color: rgb(0, 0, 255);
+}
+
+a:visited {
+  color: rgb(255, 0, 0);
+}
+
+a:hover {
+  color: rgb(225, 255, 50);
+}
+
+a:active {
+  color: rgb(255, 255, 50);
+}
+
+#wrapper {
+  width: 960px;
+  margin: auto;
+  display: grid;
+}
+
+#wrapper img {
+  max-width: 200px;
+  max-height: 200px;
+  border: 2px solid #000;
+}
+
+#wrapper #navigation li {
+  display: inline-block;
+  margin: 5px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#sailing {
+  background-image: url("../img/sailing.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #000;
+}
+
+#surfing {
+  background-image: url("../img/surfing.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #000;
+}
+
+#pv {
+  background-image: url("../img/pole-vaulting.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #000;
+}
+
+#pics {
+  background-image: url("../img/photos.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #000;
+}
+
+img {
+  max-width: 350px;
+  max-height: 350px;
+  border: 2px solid #000;
+}
+
+#ss, #sa, #pov {
+  border: none;
+}
+
+#twister img {
+  transform: scale(1);
+  position: relative;
+}
+
+#twister img:hover {
+  transform: scale(2);
+  z-index: 10;
+  transition: all 1s ease-in;
+}
+
+#twister article {
+  border: none;
+}
