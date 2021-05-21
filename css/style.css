@@ -2,7 +2,7 @@ body {
   font-family: cursive;
   font-size: 16px;
   color: rgb(45, 45, 45);
-  width: 960px;
+  width: 900px;
   margin: auto;
   padding: 20px;
   padding-bottom: 50px;
@@ -33,7 +33,6 @@ h1 {
 h2 {
   font-size: 50px;
   font-weight: bolder;
-  font-style: italic;
   margin: auto;
   text-align: center;
   color: #fff;
